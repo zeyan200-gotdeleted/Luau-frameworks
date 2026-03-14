@@ -1,5 +1,4 @@
-local ThemeEngine do
-	local ThemeEngine = {}; ThemeEngine.__index = ThemeEngine
+  local ThemeEngine = {}; ThemeEngine.__index = ThemeEngine
 
 	local RunService = game:GetService("RunService")
 	local TweenService = game:GetService("TweenService")
@@ -73,8 +72,5 @@ local ThemeEngine do
     
 		return names
 	end
-
-	return ThemeEngine
-end
 
 return ThemeEngine
